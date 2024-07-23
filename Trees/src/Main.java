@@ -106,6 +106,13 @@ public class Main {
         myTree.insert(46);
         myTree.insert(30);
 
+
+//                    24
+//            22             32
+//        11      23      30     46
+
+
+
         System.out.println(myTree.root.left.right.data);
 
         System.out.println("30: " + myTree.contains(30));
